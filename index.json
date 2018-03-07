@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "rules": {
+    "consistent-return": "off",
+    "global-require": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/prop-types": "off",
+    "react/no-string-refs": "warn",
+    "react/prefer-stateless-function": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".js"] }]
+  }
+}
