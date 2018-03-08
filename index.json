@@ -13,7 +13,14 @@
   "rules": {
     "consistent-return": "off",
     "global-require": "off",
+    "no-underscore-dangle": "off",
+    "operator-assignment": "off",
     "import/no-extraneous-dependencies": "off",
+    "jsx-a11y/anchor-is-valid": ["error", {
+      "components": ["Link"],
+      "specialLink": ["to"],
+      "aspects": ["noHref", "invalidHref", "preferButton"],
+    }],
     "react/prop-types": "off",
     "react/no-string-refs": "warn",
     "react/prefer-stateless-function": "off",
