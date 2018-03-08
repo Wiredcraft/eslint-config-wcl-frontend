@@ -15,6 +15,7 @@
     "global-require": "off",
     "no-underscore-dangle": "off",
     "operator-assignment": "off",
+    "arrow-body-style": "off",
     "import/no-extraneous-dependencies": "off",
     "jsx-a11y/anchor-is-valid": ["error", {
       "components": ["Link"],
