@@ -16,6 +16,10 @@
     "no-underscore-dangle": "off",
     "operator-assignment": "off",
     "arrow-body-style": "off",
+    "func-names": "off",
+    "eqeqeq": "off",
+    "no-use-before-define": "off",
+    "no-param-reassign": "off",
     "import/no-extraneous-dependencies": "off",
     "jsx-a11y/anchor-is-valid": ["error", {
       "components": ["Link"],
