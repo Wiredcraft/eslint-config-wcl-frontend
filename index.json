@@ -2,13 +2,15 @@
   "parser": "babel-eslint",
   "extends": [
     "airbnb",
-    "plugin:react/recommended"
+    "prettier",
+    "prettier/react"
   ],
-  "plugins": ["prettier"],
+  "plugins": ["jest", "react-hooks"],
   "env": {
     "browser": true,
-    "commonjs": true,
-    "es6": true
+    "es6": true,
+    "jest/globals": true,
+    "commonjs": true
   },
   "rules": {
     "consistent-return": "off",

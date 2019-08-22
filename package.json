@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wcl-frontend",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "main": "index.json",
   "author": "zifan",
@@ -9,12 +9,15 @@
     "url": "https://github.com/Wiredcraft/eslint-config-wcl-frontend"
   },
   "dependencies": {
+    "babel-eslint": "^10.0.2",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^22.15.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.3"
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1"
   },
   "license": "ISC"
 }
