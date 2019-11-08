@@ -2,10 +2,11 @@
   "parser": "babel-eslint",
   "extends": [
     "airbnb",
+    "airbnb/hooks",
     "prettier",
     "prettier/react"
   ],
-  "plugins": ["jest", "react-hooks"],
+  "plugins": ["jest"],
   "env": {
     "browser": true,
     "es6": true,
